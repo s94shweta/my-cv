@@ -4,8 +4,8 @@ import './article.css';
 const Article = ({imgUrl, date, text}) => {
   return (
     <div className="mycv__blog-conatiner_article">
-      <div className='mycv__blog-container_article-image'>
-      <img src={imgUrl} alt="blog image"/>
+      <div className="mycv__blog-container_article-image">
+      <img src={imgUrl} alt="blog_image"/>
       </div>
       <div className="mycv__blog-container_article-content">
         <div>
